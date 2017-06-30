@@ -92,7 +92,7 @@ class EmptyCategoriesPlugin extends BasePlugin
      */
     public function hasCpSection()
     {
-        return false;
+        return true;
     }
 
     /**

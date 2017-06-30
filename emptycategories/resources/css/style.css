@@ -1,0 +1,16 @@
+.total-count {
+	background-color: #b9bfc6;
+	color: #FFF;
+	padding: 6px 8px;
+	display: inline-block;
+	border-radius: 3px;
+	line-height: 1.4;
+}
+
+.total-count.type-empty {
+	background-color: #d54646;
+}
+
+.total-count.type-not-empty {
+	background-color: #1abf27;
+}
