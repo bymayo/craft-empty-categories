@@ -1,0 +1,26 @@
+{#
+/**
+ * Empty Categories plugin for Craft CMS
+ *
+ * Empty Categories Settings.twig
+ *
+ * @author    Jason Mayp
+ * @copyright Copyright (c) 2017 Jason Mayp
+ * @link      bymayo.co.uk
+ * @package   EmptyCategories
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "emptycategories/css/EmptyCategories_Style.css" %}
+{% includeJsResource "emptycategories/js/EmptyCategories_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting', 
+    value: settings['someSetting']})
+}}
