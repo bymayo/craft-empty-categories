@@ -1,37 +1,23 @@
-# Empty Categories plugin for Craft CMS
+# Empty Categories
 
-Finds and removes empty categories
+Empty Categories is a Craft CMS plugin that finds and removes empty categories from single, or multiple category groups.
 
-![Screenshot](resources/screenshots/plugin_logo.png)
+<img src="https://raw.githubusercontent.com/madebyshape/empty-categories/master/screenshots/screenshot.png" width="500">
 
-## Installation
+## Install
 
-To install Empty Categories, follow these steps:
+- Add the `emptycategories` directory into your `craft/plugins` directory.
+- Navigate to `Settings -> Plugins` and click the "Install" button.
 
-1. Download & unzip the file and place the `emptycategories` directory into your `craft/plugins` directory
-2.  -OR- do a `git clone https://github.com/bymayo/emptycategories.git` directly into your `craft/plugins` folder.  You can then update it with `git pull`
-3.  -OR- install with Composer via `composer require bymayo/emptycategories`
-4. Install plugin in the Craft Control Panel under Settings > Plugins
-5. The plugin folder should be named `emptycategories` for Craft to see it.  GitHub recently started appending `-master` (the branch name) to the name of the folder for zip file downloads.
+## Usage
 
-Empty Categories works on Craft 2.4.x and Craft 2.5.x.
+Once the plugin is installed, you can clear categories in two ways:
 
-## Empty Categories Overview
+- `Widget` - Add the widget to your dashboard and click 'Clean Up' next to the category group
+- `Plugin` - Use the 'Empty Categories' page in your sidebar and click 'Clean Up' next to the category group
+ 
+## Roadmap
 
--Insert text here-
-
-## Configuring Empty Categories
-
--Insert text here-
-
-## Using Empty Categories
-
--Insert text here-
-
-## Empty Categories Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
-
-Brought to you by [Jason Mayp](bymayo.co.uk)
+- Limit access per member group
+- View categories before deleting
+- Pick and choose which categories to remove

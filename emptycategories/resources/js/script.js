@@ -1,11 +1,18 @@
-/**
- * Empty Categories plugin for Craft CMS
- *
- * Empty Categories JS
- *
- * @author    Jason Mayp
- * @copyright Copyright (c) 2017 Jason Mayp
- * @link      bymayo.co.uk
- * @package   EmptyCategories
- * @since     1.0.0
- */
+$(function() {
+
+	$('.js-emptycategories-empty')
+		.click(
+			function(event){
+				
+				if (confirm('Are you sure you want to clean up the empty categories?')) {
+				    return true;
+				} else {
+					return false;
+				}
+				
+				event.preventDefault();
+				
+			}
+		)
+
+});

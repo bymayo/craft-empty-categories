@@ -9,49 +9,6 @@
 
 {% set content %}
 
-{% set categoryGroups = craft.emptycategories.categoryGroups %}
-
-{% if categoryGroups|length %}
-
-<table id="navItems" class="data fullwidth collapsible">
-	<thead>
-		<tr>
-			<th>ID</th>
-			<th>Name</th>
-			<th># Categories</th>
-			<th># Empty Categories</th>
-			<th></th>
-		</tr>
-	</thead>
-	<tbody>
-		{% for group in categoryGroups %}
-			{% set total = craft.emptycategories.categoryTotal(group.id) %}
-			{% set emptyTotal = craft.emptycategories.categoryEmptyTotal(group.id) %}
-			<tr>
-				<td>{{ group.id }}</td>
-				<td>
-					<a href="{{ url('categories/' ~ group.handle) }}">
-						<strong>{{ group.name }}</strong>
-					</a>
-				</td>
-				<td>
-					<span class="total-count">{{ total }}</span>
-				</td>
-				<td>
-					<span class="total-count {% if emptyTotal == 0 %} type-not-empty{% else %} type-empty{% endif %}">{{ emptyTotal }}</span>
-				</td>
-				<td class="thin">
-					<a href="{{ actionUrl('emptyCategories/deleteEmptyCategories', { groupId: group.id, emptyTotal: emptyTotal }) }}" class="btn submit" title="">Clean Up</a>
-				</td>
-			</tr>
-		{% endfor %}
-	</tbody>
-</table>
-
-{% else %}
-
-	No Category Groups Exist
-
-{% endif %}
+	{% include 'emptycategories/_snippets/table' %}
 
 {% endset %}

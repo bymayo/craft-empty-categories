@@ -1,14 +1,11 @@
 <?php
-/**
- * Empty Categories plugin for Craft CMS
+ /**
+ * Empty Categories
  *
- * Empty Categories Variable
- *
- * @author    gdsfa
- * @copyright Copyright (c) 2017 gdsfa
- * @link      hfgsd.com
+ * @author    Jason Mayo
+ * @twitter   @madebymayo
  * @package   EmptyCategories
- * @since     1.0.0
+ *
  */
 
 namespace Craft;

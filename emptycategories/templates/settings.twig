@@ -1,0 +1,11 @@
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "emptycategories/css/style.css" %}
+{% includeJsResource "emptycategories/js/script.js" %}
+
+{{ forms.textField({
+    label: 'Member Group',
+    id: 'memberGroup',
+    name: 'memberGroup', 
+    value: settings['memberGroup']})
+}}

@@ -1,10 +1,13 @@
 .total-count {
-	background-color: #b9bfc6;
-	color: #FFF;
-	padding: 6px 8px;
 	display: inline-block;
 	border-radius: 3px;
 	line-height: 1.4;
+}
+
+.total-count.type-empty,
+.total-count.type-not-empty {
+	color: #FFF;
+	padding: 6px 8px;
 }
 
 .total-count.type-empty {
@@ -13,4 +16,21 @@
 
 .total-count.type-not-empty {
 	background-color: #1abf27;
+}
+
+@media only screen and (max-width: 600px) {
+	.emptycategoriestable th:nth-child(1),
+	.emptycategoriestable th:nth-child(3),
+	.emptycategoriestable th:nth-child(4)  {
+		display: none;
+	}	
+	.emptycategoriestable td:nth-child(1),
+	.emptycategoriestable td:nth-child(3),
+	.emptycategoriestable td:nth-child(4)  {
+		display: none;
+	}
+	.emptycategoriestable th:nth-child(2),	
+	.emptycategoriestable td:nth-child(2) {
+		padding-left: 0 !important;
+	}
 }
