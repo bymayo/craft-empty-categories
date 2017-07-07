@@ -1,8 +1,10 @@
+<img src="https://raw.githubusercontent.com/madebyshape/empty-categories/master/screenshots/icon.png" width="50">
+
 # Empty Categories
 
 Empty Categories is a Craft CMS plugin that finds and removes empty categories from single, or multiple category groups.
 
-<img src="https://raw.githubusercontent.com/madebyshape/empty-categories/master/screenshots/screenshot.png" width="500">
+<img src="https://raw.githubusercontent.com/madebyshape/empty-categories/master/screenshots/screenshot.png" width="700">
 
 ## Install
 
