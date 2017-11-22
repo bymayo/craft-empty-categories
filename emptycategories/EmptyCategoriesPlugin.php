@@ -30,12 +30,12 @@ class EmptyCategoriesPlugin extends BasePlugin
 
     public function getDocumentationUrl()
     {
-        return 'https://github.com/madebyshape/empty-categories/blob/master/README.md';
+        return 'https://github.com/bymayo/empty-categories/blob/master/README.md';
     }
 
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/madebyshape/empty-categories/master/releases.json';
+        return 'https://raw.githubusercontent.com/bymayo/empty-categories/master/releases.json';
     }
 
     public function getVersion()
