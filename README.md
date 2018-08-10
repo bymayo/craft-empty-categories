@@ -1,6 +1,8 @@
+> ⚠️ This repo is not under active development and will not be moved to Craft 3.x. ⚠️
+
 <img src="https://raw.githubusercontent.com/bymayo/empty-categories/master/screenshots/icon.png" width="50">
 
-# Empty Categories
+# Empty Categories for Craft 2.x
 
 Empty Categories is a Craft CMS plugin that finds and removes empty categories from single, or multiple category groups.
 
