@@ -1,4 +1,4 @@
-> ⚠️ This repo is not under active development and will not be moved to Craft 3.x. ⚠️
+> ⚠️ Deprecated - This Craft CMS 2.x plugin is no longer supported. 
 
 <img src="https://raw.githubusercontent.com/bymayo/empty-categories/master/screenshots/icon.png" width="50">
 
